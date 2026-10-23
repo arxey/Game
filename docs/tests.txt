@@ -1,0 +1,40 @@
+test_turret_components_shoot_on_timer_and_health_takes_damage (tests.test_entities.ComponentTests.test_turret_components_shoot_on_timer_and_health_takes_damage) ... ok
+test_bullet_moves_600_pixels_per_second_and_releases_itself (tests.test_entities.EntityTests.test_bullet_moves_600_pixels_per_second_and_releases_itself) ... ok
+test_particle_expires_and_launch_resets_lifetime (tests.test_entities.EntityTests.test_particle_expires_and_launch_resets_lifetime) ... ok
+test_player_invulnerability_prevents_multiple_losses_in_one_frame (tests.test_entities.EntityTests.test_player_invulnerability_prevents_multiple_losses_in_one_frame) ... ok
+test_player_stays_inside_screen (tests.test_entities.EntityTests.test_player_stays_inside_screen) ... ok
+test_player_travels_300_pixels_at_20_and_60_fps (tests.test_entities.EntityTests.test_player_travels_300_pixels_at_20_and_60_fps) ... ok
+test_triple_bonus_expires_after_five_seconds (tests.test_entities.EntityTests.test_triple_bonus_expires_after_five_seconds) ... ok
+test_attack_dives_at_400_then_respawns (tests.test_entities.StateTests.test_attack_dives_at_400_then_respawns) ... ok
+test_chase_below_half_screen_enters_attack (tests.test_entities.StateTests.test_chase_below_half_screen_enters_attack) ... ok
+test_chase_returns_to_patrol_when_player_escapes (tests.test_entities.StateTests.test_chase_returns_to_patrol_when_player_escapes) ... ok
+test_one_hp_enters_flee_and_returns_after_two_seconds (tests.test_entities.StateTests.test_one_hp_enters_flee_and_returns_after_two_seconds) ... ok
+test_patrol_moves_at_120_and_enters_chase_when_player_is_close (tests.test_entities.StateTests.test_patrol_moves_at_120_and_enters_chase_when_player_is_close) ... ok
+test_attacking_enemy_costs_one_life_then_respawns (tests.test_game.GameTests.test_attacking_enemy_costs_one_life_then_respawns) ... ok
+test_bullet_cannot_hit_respawned_enemy_again_in_same_frame (tests.test_game.GameTests.test_bullet_cannot_hit_respawned_enemy_again_in_same_frame) ... ok
+test_collecting_bonus_enables_three_bullets (tests.test_game.GameTests.test_collecting_bonus_enables_three_bullets) ... ok
+test_death_event_preserves_hit_position_after_respawn (tests.test_game.GameTests.test_death_event_preserves_hit_position_after_respawn) ... ok
+test_debug_keys_and_exactly_158_enemies_after_three_presses (tests.test_game.GameTests.test_debug_keys_and_exactly_158_enemies_after_three_presses) ... ok
+test_fast_bullet_detects_crossing_between_frames_in_both_modes (tests.test_game.GameTests.test_fast_bullet_detects_crossing_between_frames_in_both_modes) ... ok
+test_final_offscreen_segment_can_still_kill_visible_fleeing_enemy (tests.test_game.GameTests.test_final_offscreen_segment_can_still_kill_visible_fleeing_enemy) ... ok
+test_firing_preserves_fractional_cooldown_with_real_clock_ticks (tests.test_game.GameTests.test_firing_preserves_fractional_cooldown_with_real_clock_ticks) ... ok
+test_game_over_freezes_world_and_r_restarts (tests.test_game.GameTests.test_game_over_freezes_world_and_r_restarts) ... ok
+test_grid_and_brute_force_produce_same_hits_with_fewer_checks (tests.test_game.GameTests.test_grid_and_brute_force_produce_same_hits_with_fewer_checks) ... ok
+test_hit_queues_fifteen_sparks_and_kill_adds_forty_and_score (tests.test_game.GameTests.test_hit_queues_fifteen_sparks_and_kill_adds_forty_and_score) ... ok
+test_large_dt_is_clamped_before_world_update (tests.test_game.GameTests.test_large_dt_is_clamped_before_world_update) ... ok
+test_long_pause_does_not_accumulate_a_burst_of_shots (tests.test_game.GameTests.test_long_pause_does_not_accumulate_a_burst_of_shots) ... ok
+test_normal_debug_and_game_over_screens_render (tests.test_game.GameTests.test_normal_debug_and_game_over_screens_render) ... ok
+test_particle_pool_does_not_grow_after_repeated_separated_explosions (tests.test_game.GameTests.test_particle_pool_does_not_grow_after_repeated_separated_explosions) ... ok
+test_thirty_seconds_of_firing_reuses_twenty_bullets_at_both_fps (tests.test_game.GameTests.test_thirty_seconds_of_firing_reuses_twenty_bullets_at_both_fps) ... ok
+test_turret_bullet_costs_player_one_life (tests.test_game.GameTests.test_turret_bullet_costs_player_one_life) ... ok
+test_event_posted_by_handler_waits_until_next_process (tests.test_patterns.EventTests.test_event_posted_by_handler_waits_until_next_process) ... ok
+test_events_are_deferred_and_delivered_in_order_to_subscribers (tests.test_patterns.EventTests.test_events_are_deferred_and_delivered_in_order_to_subscribers) ... ok
+test_cell_boundary_does_not_hide_colliding_enemy (tests.test_patterns.GridTests.test_cell_boundary_does_not_hide_colliding_enemy) ... ok
+test_near_includes_all_nine_cells_and_handles_negative_coordinates (tests.test_patterns.GridTests.test_near_includes_all_nine_cells_and_handles_negative_coordinates) ... ok
+test_grows_only_when_every_item_is_active (tests.test_patterns.PoolTests.test_grows_only_when_every_item_is_active) ... ok
+test_reuses_released_object_and_resets_only_on_launch (tests.test_patterns.PoolTests.test_reuses_released_object_and_resets_only_on_launch) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.245s
+
+OK

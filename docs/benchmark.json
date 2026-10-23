@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14",
+  "pygame_ce": "2.5.8",
+  "collision_fixture": {
+    "brute_checks": 3160,
+    "grid_checks": 221,
+    "same_hits": true,
+    "reduction": 14.3,
+    "enemies": 158,
+    "bullets": 40
+  },
+  "headless_frames": [
+    {
+      "enemies": 158,
+      "turrets": 2,
+      "frames": 300,
+      "mean_update_draw_ms": 1.832,
+      "bullet_pool": 20,
+      "particle_pool": 300
+    },
+    {
+      "enemies": 508,
+      "turrets": 2,
+      "frames": 300,
+      "mean_update_draw_ms": 3.582,
+      "bullet_pool": 20,
+      "particle_pool": 300
+    }
+  ],
+  "note": "CPU update+draw into Surface; no window, vsync or real display FPS."
+}
